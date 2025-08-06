@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/registry/api/errcode"
-	"github.com/distribution/distribution/v3/testutil"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/registry/api/errcode"
+	"go.izuma.io/izcr/testutil"
 )
 
 // Test implements distribution.BlobWriter

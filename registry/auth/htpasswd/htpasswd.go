@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/distribution/distribution/v3/registry/auth"
+	"go.izuma.io/izcr/registry/auth"
 
 	"golang.org/x/crypto/bcrypt"
 )

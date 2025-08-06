@@ -13,7 +13,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/distribution/distribution/v3/registry/auth"
+	"go.izuma.io/izcr/registry/auth"
 	"github.com/go-jose/go-jose/v4"
 	"github.com/sirupsen/logrus"
 )

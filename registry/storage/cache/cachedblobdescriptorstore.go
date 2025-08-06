@@ -3,9 +3,9 @@ package cache
 import (
 	"context"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	prometheus "github.com/distribution/distribution/v3/metrics"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/internal/dcontext"
+	prometheus "go.izuma.io/izcr/metrics"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )

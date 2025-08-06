@@ -8,15 +8,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/distribution/distribution/v3/configuration"
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	"github.com/distribution/distribution/v3/registry/api/errcode"
-	v2 "github.com/distribution/distribution/v3/registry/api/v2"
-	"github.com/distribution/distribution/v3/registry/auth"
-	_ "github.com/distribution/distribution/v3/registry/auth/silly"
-	"github.com/distribution/distribution/v3/registry/storage"
-	memorycache "github.com/distribution/distribution/v3/registry/storage/cache/memory"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
+	"go.izuma.io/izcr/configuration"
+	"go.izuma.io/izcr/internal/dcontext"
+	"go.izuma.io/izcr/registry/api/errcode"
+	v2 "go.izuma.io/izcr/registry/api/v2"
+	"go.izuma.io/izcr/registry/auth"
+	_ "go.izuma.io/izcr/registry/auth/silly"
+	"go.izuma.io/izcr/registry/storage"
+	memorycache "go.izuma.io/izcr/registry/storage/cache/memory"
+	"go.izuma.io/izcr/registry/storage/driver/inmemory"
 )
 
 // TestAppDispatcher builds an application with a test dispatcher and ensures

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/distribution/distribution/v3/health"
+	"go.izuma.io/izcr/health"
 )
 
 var updater = health.NewStatusUpdater()

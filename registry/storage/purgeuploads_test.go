@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
+	"go.izuma.io/izcr/registry/storage/driver"
+	"go.izuma.io/izcr/registry/storage/driver/inmemory"
 	"github.com/google/uuid"
 )
 

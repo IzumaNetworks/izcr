@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/registry/api/errcode"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/registry/api/errcode"
 	"github.com/gorilla/handlers"
 )
 

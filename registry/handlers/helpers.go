@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/distribution/distribution/v3/internal/dcontext"
+	"go.izuma.io/izcr/internal/dcontext"
 )
 
 // closeResources closes all the provided resources after running the target

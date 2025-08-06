@@ -30,9 +30,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/base"
-	"github.com/distribution/distribution/v3/registry/storage/driver/factory"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
+	"go.izuma.io/izcr/registry/storage/driver/base"
+	"go.izuma.io/izcr/registry/storage/driver/factory"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"

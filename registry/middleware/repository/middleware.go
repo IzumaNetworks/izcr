@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/distribution/distribution/v3"
+	"go.izuma.io/izcr"
 )
 
 // InitFunc is the type of a RepositoryMiddleware factory function and is

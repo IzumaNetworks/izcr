@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/distribution/distribution/v3/version"
+	"go.izuma.io/izcr/version"
 	"github.com/opencontainers/go-digest"
 
 	_ "crypto/sha256"

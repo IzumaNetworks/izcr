@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	"github.com/distribution/distribution/v3/internal/requestutil"
+	"go.izuma.io/izcr/internal/dcontext"
+	"go.izuma.io/izcr/internal/requestutil"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/distribution/distribution/v3"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
+	"go.izuma.io/izcr"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
 )
 
 var _ distribution.TagService = &tagStore{}

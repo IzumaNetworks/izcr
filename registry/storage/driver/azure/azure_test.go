@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/testsuites"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
+	"go.izuma.io/izcr/registry/storage/driver/testsuites"
 )
 
 const (

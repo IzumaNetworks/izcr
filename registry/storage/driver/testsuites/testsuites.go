@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
 	"github.com/stretchr/testify/suite"
 )
 

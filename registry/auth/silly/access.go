@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/distribution/distribution/v3/registry/auth"
+	"go.izuma.io/izcr/registry/auth"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,6 +1,6 @@
 package v2
 
-import "github.com/distribution/distribution/v3/registry/api/errcode"
+import "go.izuma.io/izcr/registry/api/errcode"
 
 var (
 	// ErrorCodeDigestInvalid is returned when uploading a blob if the

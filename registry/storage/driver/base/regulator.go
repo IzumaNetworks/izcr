@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
 )
 
 type regulator struct {

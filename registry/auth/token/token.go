@@ -11,7 +11,7 @@ import (
 	"github.com/go-jose/go-jose/v4/jwt"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/distribution/distribution/v3/registry/auth"
+	"go.izuma.io/izcr/registry/auth"
 )
 
 const (

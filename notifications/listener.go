@@ -5,9 +5,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/distribution/distribution/v3"
+	"go.izuma.io/izcr"
 
-	"github.com/distribution/distribution/v3/internal/dcontext"
+	"go.izuma.io/izcr/internal/dcontext"
 	"github.com/distribution/reference"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"

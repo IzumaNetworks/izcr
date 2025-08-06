@@ -2,13 +2,13 @@
 <img style="align: center; padding-left: 10px; padding-right: 10px; padding-bottom: 10px;" width="238px" height="238px" src="./distribution-logo.svg" />
 </p>
 
-[![Build Status](https://github.com/distribution/distribution/workflows/build/badge.svg?branch=main&event=push)](https://github.com/distribution/distribution/actions/workflows/build.yml?query=workflow%3Abuild)
-[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/distribution/distribution)
+[![Build Status](https://go.izuma.io/izcr/workflows/build/badge.svg?branch=main&event=push)](https://go.izuma.io/izcr/actions/workflows/build.yml?query=workflow%3Abuild)
+[![GoDoc](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/go.izuma.io/izcr)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![codecov](https://codecov.io/gh/distribution/distribution/branch/main/graph/badge.svg)](https://codecov.io/gh/distribution/distribution)
 [![FOSSA Status](https://app.fossa.com/api/projects/custom%2B162%2Fgithub.com%2Fdistribution%2Fdistribution.svg?type=shield)](https://app.fossa.com/projects/custom%2B162%2Fgithub.com%2Fdistribution%2Fdistribution?ref=badge_shield)
-[![OCI Conformance](https://github.com/distribution/distribution/workflows/conformance/badge.svg)](https://github.com/distribution/distribution/actions?query=workflow%3Aconformance)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/distribution/distribution/badge)](https://securityscorecards.dev/viewer/?uri=github.com/distribution/distribution)
+[![OCI Conformance](https://go.izuma.io/izcr/workflows/conformance/badge.svg)](https://go.izuma.io/izcr/actions?query=workflow%3Aconformance)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/go.izuma.io/izcr/badge)](https://securityscorecards.dev/viewer/?uri=go.izuma.io/izcr)
 
 The toolset to pack, ship, store, and deliver content.
 
@@ -26,7 +26,7 @@ This repository contains the following components:
 |**Component**       |Description                                                                                                                                                                                         |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **registry**       | An implementation of the [OCI Distribution Specification](https://github.com/opencontainers/distribution-spec).                                                                                                 |
-| **libraries**      | A rich set of libraries for interacting with distribution components. Please see [godoc](https://pkg.go.dev/github.com/distribution/distribution) for details. **Note**: The interfaces for these libraries are **unstable**. |
+| **libraries**      | A rich set of libraries for interacting with distribution components. Please see [godoc](https://pkg.go.dev/go.izuma.io/izcr) for details. **Note**: The interfaces for these libraries are **unstable**. |
 | **documentation**  | Full documentation is available at [https://distribution.github.io/distribution](https://distribution.github.io/distribution/).
 
 ### How does this integrate with Docker, containerd, and other OCI client?

@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"runtime"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/registry/storage/cache"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/registry/storage/cache"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
 	"github.com/distribution/reference"
 )
 

@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/distribution/distribution/v3/internal/client/auth"
-	"github.com/distribution/distribution/v3/internal/client/auth/challenge"
-	"github.com/distribution/distribution/v3/internal/dcontext"
+	"go.izuma.io/izcr/internal/client/auth"
+	"go.izuma.io/izcr/internal/client/auth/challenge"
+	"go.izuma.io/izcr/internal/dcontext"
 )
 
 const challengeHeader = "Docker-Distribution-Api-Version"

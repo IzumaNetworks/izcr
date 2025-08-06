@@ -17,9 +17,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/testsuites"
+	"go.izuma.io/izcr/internal/dcontext"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
+	"go.izuma.io/izcr/registry/storage/driver/testsuites"
 )
 
 var (

@@ -43,10 +43,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	prometheus "github.com/distribution/distribution/v3/metrics"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/tracing"
+	"go.izuma.io/izcr/internal/dcontext"
+	prometheus "go.izuma.io/izcr/metrics"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
+	"go.izuma.io/izcr/tracing"
 	"github.com/docker/go-metrics"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
@@ -58,7 +58,7 @@ var storageAction = prometheus.StorageNamespace.NewLabeledTimer("action", "The n
 
 // tracer is the OpenTelemetry tracer utilized for tracing operations within
 // this package's code.
-var tracer = otel.Tracer("github.com/distribution/distribution/v3/registry/storage/driver/base")
+var tracer = otel.Tracer("go.izuma.io/izcr/registry/storage/driver/base")
 
 func init() {
 	metrics.Register(prometheus.StorageNamespace)

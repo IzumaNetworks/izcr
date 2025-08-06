@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	"github.com/distribution/distribution/v3/registry/storage"
-	"github.com/distribution/distribution/v3/registry/storage/driver/factory"
-	"github.com/distribution/distribution/v3/version"
+	"go.izuma.io/izcr/internal/dcontext"
+	"go.izuma.io/izcr/registry/storage"
+	"go.izuma.io/izcr/registry/storage/driver/factory"
+	"go.izuma.io/izcr/version"
 	"github.com/spf13/cobra"
 )
 

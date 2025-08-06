@@ -8,9 +8,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/internal/dcontext"
+	storagedriver "go.izuma.io/izcr/registry/storage/driver"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/sirupsen/logrus"

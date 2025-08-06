@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/distribution/distribution/v3"
+	"go.izuma.io/izcr"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/image-spec/specs-go"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"

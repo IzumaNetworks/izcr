@@ -190,7 +190,7 @@ func familiarizeName(named namedRepository) repository {
 			//  "library/" namespace does not have nested namespaces. While this
 			//  is true (currently), technically it would be possible for Docker
 			//  Hub to use those (e.g. "library/distros/ubuntu:latest").
-			//  See https://github.com/distribution/distribution/pull/3769#issuecomment-1302031785.
+			//  See https://go.izuma.io/izcr/pull/3769#issuecomment-1302031785.
 			if remainder := strings.TrimPrefix(repo.path, officialRepoPrefix); !strings.ContainsRune(remainder, '/') {
 				repo.path = remainder
 			}

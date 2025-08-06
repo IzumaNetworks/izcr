@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/distribution/distribution/v3/registry/auth"
+	"go.izuma.io/izcr/registry/auth"
 )
 
 func TestSillyAccessController(t *testing.T) {

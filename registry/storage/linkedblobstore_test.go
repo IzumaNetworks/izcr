@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/testutil"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/testutil"
 	"github.com/distribution/reference"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"

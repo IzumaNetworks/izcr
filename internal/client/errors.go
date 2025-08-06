@@ -8,8 +8,8 @@ import (
 	"mime"
 	"net/http"
 
-	"github.com/distribution/distribution/v3/internal/client/auth/challenge"
-	"github.com/distribution/distribution/v3/registry/api/errcode"
+	"go.izuma.io/izcr/internal/client/auth/challenge"
+	"go.izuma.io/izcr/registry/api/errcode"
 )
 
 // ErrNoErrorsInBody is returned when an HTTP response body parses to an empty

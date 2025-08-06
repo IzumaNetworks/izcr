@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/distribution/distribution/v3/configuration"
-	"github.com/distribution/distribution/v3/health"
-	"github.com/distribution/distribution/v3/internal/dcontext"
+	"go.izuma.io/izcr/configuration"
+	"go.izuma.io/izcr/health"
+	"go.izuma.io/izcr/internal/dcontext"
 )
 
 func TestFileHealthCheck(t *testing.T) {

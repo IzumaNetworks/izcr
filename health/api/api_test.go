@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/distribution/distribution/v3/health"
+	"go.izuma.io/izcr/health"
 )
 
 // TestGETDownHandlerDoesNotChangeStatus ensures that calling the endpoint

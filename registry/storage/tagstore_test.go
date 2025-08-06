@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/manifest/schema2"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/manifest/schema2"
+	"go.izuma.io/izcr/registry/storage/driver/inmemory"
 	"github.com/distribution/reference"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/opencontainers/image-spec/specs-go"

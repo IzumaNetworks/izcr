@@ -7,11 +7,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/registry/storage/cache/memory"
-	"github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
-	"github.com/distribution/distribution/v3/testutil"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/registry/storage/cache/memory"
+	"go.izuma.io/izcr/registry/storage/driver"
+	"go.izuma.io/izcr/registry/storage/driver/inmemory"
+	"go.izuma.io/izcr/testutil"
 	"github.com/distribution/reference"
 	"github.com/opencontainers/go-digest"
 )

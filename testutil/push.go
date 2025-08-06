@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/distribution/distribution/v3"
+	"go.izuma.io/izcr"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )

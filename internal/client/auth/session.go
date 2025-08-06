@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/distribution/distribution/v3/internal/client"
-	"github.com/distribution/distribution/v3/internal/client/auth/challenge"
-	"github.com/distribution/distribution/v3/internal/client/transport"
+	"go.izuma.io/izcr/internal/client"
+	"go.izuma.io/izcr/internal/client/auth/challenge"
+	"go.izuma.io/izcr/internal/client/transport"
 )
 
 var (

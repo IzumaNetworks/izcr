@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/distribution/distribution/v3/internal/client/auth/challenge"
-	"github.com/distribution/distribution/v3/internal/client/transport"
-	"github.com/distribution/distribution/v3/testutil"
+	"go.izuma.io/izcr/internal/client/auth/challenge"
+	"go.izuma.io/izcr/internal/client/transport"
+	"go.izuma.io/izcr/testutil"
 )
 
 // An implementation of clock for providing fake time data.

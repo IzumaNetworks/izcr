@@ -1,4 +1,4 @@
-module github.com/distribution/distribution/v3
+module go.izuma.io/izcr
 
 go 1.23.7
 

@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/manifest/schema2"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/manifest/schema2"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

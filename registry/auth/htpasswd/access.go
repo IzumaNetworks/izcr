@@ -18,8 +18,8 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	"github.com/distribution/distribution/v3/registry/auth"
+	"go.izuma.io/izcr/internal/dcontext"
+	"go.izuma.io/izcr/registry/auth"
 	"github.com/sirupsen/logrus"
 )
 

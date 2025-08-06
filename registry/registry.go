@@ -24,13 +24,13 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	"github.com/distribution/distribution/v3/configuration"
-	"github.com/distribution/distribution/v3/health"
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	"github.com/distribution/distribution/v3/registry/handlers"
-	"github.com/distribution/distribution/v3/registry/listener"
-	"github.com/distribution/distribution/v3/tracing"
-	"github.com/distribution/distribution/v3/version"
+	"go.izuma.io/izcr/configuration"
+	"go.izuma.io/izcr/health"
+	"go.izuma.io/izcr/internal/dcontext"
+	"go.izuma.io/izcr/registry/handlers"
+	"go.izuma.io/izcr/registry/listener"
+	"go.izuma.io/izcr/tracing"
+	"go.izuma.io/izcr/version"
 )
 
 // a map of TLS cipher suite names to constants in https://golang.org/pkg/crypto/tls/#pkg-constants

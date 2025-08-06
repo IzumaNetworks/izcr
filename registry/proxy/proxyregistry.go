@@ -10,16 +10,16 @@ import (
 
 	"github.com/distribution/reference"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/configuration"
-	"github.com/distribution/distribution/v3/internal/client"
-	"github.com/distribution/distribution/v3/internal/client/auth"
-	"github.com/distribution/distribution/v3/internal/client/auth/challenge"
-	"github.com/distribution/distribution/v3/internal/client/transport"
-	"github.com/distribution/distribution/v3/internal/dcontext"
-	"github.com/distribution/distribution/v3/registry/proxy/scheduler"
-	"github.com/distribution/distribution/v3/registry/storage"
-	"github.com/distribution/distribution/v3/registry/storage/driver"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/configuration"
+	"go.izuma.io/izcr/internal/client"
+	"go.izuma.io/izcr/internal/client/auth"
+	"go.izuma.io/izcr/internal/client/auth/challenge"
+	"go.izuma.io/izcr/internal/client/transport"
+	"go.izuma.io/izcr/internal/dcontext"
+	"go.izuma.io/izcr/registry/proxy/scheduler"
+	"go.izuma.io/izcr/registry/storage"
+	"go.izuma.io/izcr/registry/storage/driver"
 )
 
 var repositoryTTL = 24 * 7 * time.Hour

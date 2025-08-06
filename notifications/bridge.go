@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/internal/requestutil"
+	"go.izuma.io/izcr"
+	"go.izuma.io/izcr/internal/requestutil"
 	"github.com/distribution/reference"
 	events "github.com/docker/go-events"
 	"github.com/google/uuid"

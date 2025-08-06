@@ -5,7 +5,7 @@ package cache
 import (
 	"fmt"
 
-	"github.com/distribution/distribution/v3"
+	"go.izuma.io/izcr"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
